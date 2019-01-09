@@ -8,7 +8,7 @@ $configuration = [
     ],
 ];
 
-$app = new \Slim\App($configurations);
+$app = new \Slim\App($configuration);
 
 $app->get('/', function ($request, $response) {
     return $response->write('Welcome to Slim!');
